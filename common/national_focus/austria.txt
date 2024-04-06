@@ -1,0 +1,319 @@
+focus_tree = {
+	id = thw_austrian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	# Brothertree 1
+
+	focus = {
+		id = THW_AUS_FOLLOWING_THE_BROTHER
+		icon = GFX_goal_generic_major_war
+		x = 10
+		y = 0
+
+		mutually_exclusive = { focus = THW_KEEPING_THE_THREAT_AWAY }
+
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Brothertree 2
+
+	focus = {
+		id = THW_KEEPING_THE_THREAT_AWAY
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 0
+
+		mutually_exclusive = { focus = THW_AUS_FOLLOWING_THE_BROTHER }
+
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Main Tree 1
+
+	focus = {
+		id = THW_AUS_THE_KAISER_SHOULD_RETURN
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 0
+
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = THW_AUS_THE_ADRIATIC_QUESTION
+		icon = GFX_goal_generic_major_war
+		
+		relative_position_id = THW_AUS_THE_KAISER_SHOULD_RETURN
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = THW_AUS_THE_KAISER_SHOULD_RETURN }
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = THW_AUS_THE_ALPEN_REICH
+		icon = GFX_goal_generic_major_war
+		
+		relative_position_id = THW_AUS_THE_KAISER_SHOULD_RETURN
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = THW_AUS_THE_KAISER_SHOULD_RETURN }
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = THW_AUS_GOING_THROUGH_ITALY
+		icon = GFX_goal_generic_major_war
+		
+		relative_position_id = THW_AUS_THE_ADRIATIC_QUESTION
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = THW_AUS_THE_ADRIATIC_QUESTION }
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = THW_AUS_GOING_THROUGH_YUGOSLAVIA
+		icon = GFX_goal_generic_major_war
+		
+		relative_position_id = THW_AUS_THE_ADRIATIC_QUESTION
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = THW_AUS_THE_ADRIATIC_QUESTION }
+		cost = 10
+
+
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#	focus = {
+#		id = THW_AUS_
+#		icon = GFX_goal_generic_construction
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -1
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+}

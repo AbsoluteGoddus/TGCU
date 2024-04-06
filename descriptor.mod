@@ -1,0 +1,16 @@
+version="0.0.1"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Graphics"
+	"Ideologies"
+	"Military"
+	"Translation"
+}
+name="The Great Cybertopic Universe"
+supported_version="1.14.4"
+remote_file_id="3213512739"
