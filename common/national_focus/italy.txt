@@ -1,5 +1,5 @@
 focus_tree = {
-	id = thw_austrian_focus
+	id = TGCU_ITALY_FOCUS
 	
 	country = {
 		factor = 0
@@ -15,8 +15,44 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	
+	focus = {
+		id = TGCU_ITA_Win_in_Ethiopia
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = -1
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.10
+		}
+	}
+
 #	focus = {
-#		id = THW_AUS_
+#		id = TGCU_ITA_
 #		icon = GFX_goal_generic_construction
 #		prerequisite = { focus = }
 #		mutually_exclusive = { focus =  }
@@ -50,4 +86,5 @@ focus_tree = {
 #
 #		}
 #	}
+
 }
