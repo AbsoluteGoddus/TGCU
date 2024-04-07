@@ -1,5 +1,5 @@
 focus_tree = {
-	id = thw_austrian_focus
+	id = TGCU_AUSTRIAN_FOCUS
 	
 	country = {
 		factor = 0
@@ -17,12 +17,12 @@ focus_tree = {
 	# Brothertree 1
 
 	focus = {
-		id = THW_AUS_FOLLOWING_THE_BROTHER
+		id = TGCU_AUS_FOLLOWING_THE_BROTHER
 		icon = GFX_goal_generic_major_war
 		x = 10
 		y = 0
 
-		mutually_exclusive = { focus = THW_KEEPING_THE_THREAT_AWAY }
+		mutually_exclusive = { focus = TGCU_KEEPING_THE_THREAT_AWAY }
 
 		cost = 10
 
@@ -56,12 +56,12 @@ focus_tree = {
 	# Brothertree 2
 
 	focus = {
-		id = THW_KEEPING_THE_THREAT_AWAY
+		id = TGCU_KEEPING_THE_THREAT_AWAY
 		icon = GFX_goal_generic_major_war
 		x = 14
 		y = 0
 
-		mutually_exclusive = { focus = THW_AUS_FOLLOWING_THE_BROTHER }
+		mutually_exclusive = { focus = TGCU_AUS_FOLLOWING_THE_BROTHER }
 
 		cost = 10
 
@@ -95,7 +95,7 @@ focus_tree = {
 	# Main Tree 1
 
 	focus = {
-		id = THW_AUS_THE_KAISER_SHOULD_RETURN
+		id = TGCU_AUS_THE_KAISER_SHOULD_RETURN
 		icon = GFX_goal_generic_major_war
 		x = 5
 		y = 0
@@ -130,14 +130,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = THW_AUS_THE_ADRIATIC_QUESTION
+		id = TGCU_AUS_THE_ADRIATIC_QUESTION
 		icon = GFX_goal_generic_major_war
 		
-		relative_position_id = THW_AUS_THE_KAISER_SHOULD_RETURN
+		relative_position_id = TGCU_AUS_THE_KAISER_SHOULD_RETURN
 		x = -1
 		y = 1
 		
-		prerequisite = { focus = THW_AUS_THE_KAISER_SHOULD_RETURN }
+		prerequisite = { focus = TGCU_AUS_THE_KAISER_SHOULD_RETURN }
 		cost = 10
 
 
@@ -168,14 +168,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = THW_AUS_THE_ALPEN_REICH
+		id = TGCU_AUS_THE_ALPEN_REICH
 		icon = GFX_goal_generic_major_war
 		
-		relative_position_id = THW_AUS_THE_KAISER_SHOULD_RETURN
+		relative_position_id = TGCU_AUS_THE_KAISER_SHOULD_RETURN
 		x = 1
 		y = 1
 		
-		prerequisite = { focus = THW_AUS_THE_KAISER_SHOULD_RETURN }
+		prerequisite = { focus = TGCU_AUS_THE_KAISER_SHOULD_RETURN }
 		cost = 10
 
 
@@ -206,14 +206,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = THW_AUS_GOING_THROUGH_ITALY
+		id = TGCU_AUS_GOING_THROUGH_ITALY
 		icon = GFX_goal_generic_major_war
 		
-		relative_position_id = THW_AUS_THE_ADRIATIC_QUESTION
+		relative_position_id = TGCU_AUS_THE_ADRIATIC_QUESTION
 		x = -1
 		y = 1
 		
-		prerequisite = { focus = THW_AUS_THE_ADRIATIC_QUESTION }
+		prerequisite = { focus = TGCU_AUS_THE_ADRIATIC_QUESTION }
 		cost = 10
 
 
@@ -244,14 +244,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = THW_AUS_GOING_THROUGH_YUGOSLAVIA
+		id = TGCU_AUS_GOING_THROUGH_YUGOSLAVIA
 		icon = GFX_goal_generic_major_war
 		
-		relative_position_id = THW_AUS_THE_ADRIATIC_QUESTION
+		relative_position_id = TGCU_AUS_THE_ADRIATIC_QUESTION
 		x = 1
 		y = 1
 		
-		prerequisite = { focus = THW_AUS_THE_ADRIATIC_QUESTION }
+		prerequisite = { focus = TGCU_AUS_THE_ADRIATIC_QUESTION }
 		cost = 10
 
 
@@ -282,7 +282,7 @@ focus_tree = {
 	}
 
 #	focus = {
-#		id = THW_AUS_
+#		id = TGCU_AUS_
 #		icon = GFX_goal_generic_construction
 #		prerequisite = { focus = }
 #		mutually_exclusive = { focus =  }

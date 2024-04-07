@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_fart_kaiser_event_immage"
+		texturefile = "gfx/event_pictures/fartkaiser.dds"
+	}
+}

@@ -1,0 +1,18 @@
+﻿###########################
+# Austrian Events
+###########################
+
+add_namespace = austria.tgcu_mod
+
+country_event = {
+	id = austria.tgcu_mod.1
+	title = austria.tgcu_mod.1.t
+	desc = austria.tgcu_mod.1.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		
+	}
+}
